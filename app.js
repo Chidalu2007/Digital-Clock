@@ -1,9 +1,8 @@
 function head() {
     const heading = document.getElementById('h1');
-    h1.textContent = 'Digital Clock';
+    heading.textContent = 'Digital Clock';
 }
 head();
-
 
 function updateClock() {
     const clockElement = document.getElementById('clock');
